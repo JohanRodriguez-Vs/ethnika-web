@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg: theme("colors.primary.100");
+    --color-text: theme("colors.primary.900");
+    --color-gold: theme("colors.primary.400");
+    --color-muted: theme("colors.gray.600");
+  }
+
+  html {
+    @apply scroll-smooth bg-primary-100 text-primary-900 antialiased;
+  }
+
+  body {
+    @apply font-body leading-relaxed;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display tracking-tight text-primary-900;
+  }
+
+  p {
+    @apply text-gray-700;
+  }
+
+  a {
+    @apply transition-colors duration-300;
+  }
+
+  *:focus-visible {
+    @apply outline-none ring-2 ring-accent-gold ring-offset-2 ring-offset-primary-100;
+  }
+
+  ::selection {
+    @apply bg-accent-gold text-primary-900;
+  }
+}
+
+@layer components {
+  .container-ethnika {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-ethnika {
+    @apply py-12 md:py-16 lg:py-20;
+  }
+
+  .heading-hero {
+    @apply font-display text-4xl font-bold leading-tight text-primary-900 md:text-5xl lg:text-6xl;
+  }
+
+  .heading-section {
+    @apply font-display text-2xl font-bold text-primary-900 md:text-3xl lg:text-4xl;
+  }
+
+  .text-lead {
+    @apply text-base text-gray-700 md:text-lg;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-full bg-primary-900 px-6 py-3 font-semibold text-primary-100 shadow-elegant transition-all duration-300 hover:-translate-y-0.5 hover:bg-accent-gold hover:text-primary-900 hover:shadow-gold;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-full border border-primary-900 bg-transparent px-6 py-3 font-semibold text-primary-900 transition-all duration-300 hover:border-accent-gold hover:bg-accent-gold/10 hover:text-primary-900;
+  }
+
+  .card-ethnika {
+    @apply rounded-2xl border border-primary-200 bg-white/90 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-elegant;
+  }
+
+  .input-ethnika {
+    @apply w-full rounded-xl border border-primary-300 bg-white px-4 py-3 text-primary-900 placeholder:text-gray-500 transition-colors duration-200 focus:border-accent-gold;
+  }
+}
+
+@layer utilities {
+  .text-gradient-gold {
+    background: linear-gradient(135deg, #c6a75e 0%, #b8975f 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .bg-grid-soft {
+    background-image:
+      linear-gradient(to right, rgba(198, 167, 94, 0.08) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(198, 167, 94, 0.08) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+
+  .glass-soft {
+    @apply border border-white/20 bg-white/50 backdrop-blur-md;
+  }
+}

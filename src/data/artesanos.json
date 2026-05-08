@@ -1,0 +1,214 @@
+[
+  {
+    "id": "art-001",
+    "nombre": "María Fernández",
+    "ubicacion": "La Guajira, Colombia",
+    "imagen": "/images/artisans/maria-fernandez-wayuu.png",
+    "historia": "María es una tejedora Wayuu de la comunidad de Manaure, en la alta Guajira. Aprendió el arte del tejido a los 8 años observando a su madre y abuela. Hoy, con 42 años, lidera un grupo de 15 mujeres tejedoras que mantienen viva la tradición del crochet wayuu, combinando los diseños ancestrales con nuevas formas contemporáneas.",
+    "filosofia": "Cada mochila guarda un pedazo de nuestra alma Wayuu. Tejer es nuestra forma de hablar con el mundo.",
+    "proceso": [
+      {
+        "titulo": "Selección de la fibra",
+        "descripcion": "Escogemos cuidadosamente el hilo acrílico de alta calidad en los colores tradicionales Wayuu.",
+        "imagen": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop"
+      },
+      {
+        "titulo": "Tejido en crochet",
+        "descripcion": "Cada mochila se teje a mano utilizando la técnica de crochet wayuu, punto por punto.",
+        "imagen": "/images/artisans/process/maria-fernandez-proceso-02.png"
+      },
+      {
+        "titulo": "Diseño de figuras",
+        "descripcion": "Los diseños geométricos representan elementos de nuestra cosmovisión: el sol, la luna, los animales.",
+        "imagen": "/images/artisans/process/maria-fernandez-proceso-03.png"
+      }
+    ],
+    "redes": {
+      "instagram": "@maria_tejedora_wayuu",
+      "facebook": "María Fernández Artesanías"
+    },
+    "productos": ["prod-001", "prod-014"],
+    "destacado": true
+  },
+  {
+    "id": "art-002",
+    "nombre": "Carlos Martínez",
+    "ubicacion": "Córdoba, Colombia",
+    "imagen": "/images/artisans/carlos-martinez-zenu.png",
+    "historia": "Carlos es un maestro artesano Zenú de cuarta generación, originario de Tuchín, Córdoba. Desde niño aprendió el tejido del sombrero vueltiao con su padre, y hoy es reconocido como uno de los mejores tejedores de la región, con más de 30 años de experiencia dominando la técnica de la caña flecha.",
+    "filosofia": "El sombrero vueltiao es la identidad de nuestra tierra. Cada vuelta que tejemos es un abrazo a nuestra cultura.",
+    "proceso": [
+      {
+        "titulo": "Cosecha de caña flecha",
+        "descripcion": "Seleccionamos la caña flecha en su punto exacto de maduración en las riberas del río Sinú.",
+        "imagen": "/images/artisans/process/carlos-martinez-proceso-01.png"
+      },
+      {
+        "titulo": "Tintes naturales",
+        "descripcion": "Teñimos la fibra con pigmentos naturales extraídos de cortezas, hojas y frutos de la región.",
+        "imagen": "/images/artisans/process/carlos-martinez-proceso-02.png"
+      },
+      {
+        "titulo": "Tejido en espiral",
+        "descripcion": "El tejido comienza desde el centro y avanza en espiral, creando las vueltas características.",
+        "imagen": "/images/artisans/process/carlos-martinez-proceso-03.png"
+      }
+    ],
+    "redes": {
+      "instagram": "@carlos_zenu_artesano"
+    },
+    "productos": ["prod-002", "prod-013"],
+    "destacado": true
+  },
+  {
+    "id": "art-003",
+    "nombre": "Ana Lucía Paz",
+    "ubicacion": "Nariño, Colombia",
+    "imagen": "/images/artisans/ana-lucia-paz-narino.png",
+    "historia": "Ana Lucía es orfebre y artesana multipropósito de San Juan de Pasto. Heredó la pasión por la plata de su abuelo, quien fue minero y orfebre. Hoy combina la orfebrería tradicional nariñense con técnicas modernas de talla en madera y cestería en iraca, creando piezas únicas que representan la riqueza cultural del sur de Colombia.",
+    "filosofia": "Cada material tiene su propia voz. Mi trabajo es escucharlo y transformarlo en arte que honre nuestras raíces.",
+    "proceso": [
+      {
+        "titulo": "Diseño y modelado",
+        "descripcion": "Dibujo a mano cada pieza inspirada en la cultura de los Pastos y la iconografía precolombina.",
+        "imagen": "/images/artisans/process/ana-lucia-proceso-01.png"
+      },
+      {
+        "titulo": "Talla y fundición",
+        "descripcion": "Trabajo la plata y la madera con herramientas tradicionales, dando forma a cada detalle.",
+        "imagen": "/images/artisans/process/ana-lucia-proceso-02.png"
+      },
+      {
+        "titulo": "Acabados finales",
+        "descripcion": "Pulido y tratamiento final con técnicas heredadas que garantizan la belleza y durabilidad.",
+        "imagen": "/images/artisans/process/ana-lucia-proceso-03.png"
+      }
+    ],
+    "redes": {
+      "instagram": "@analu_artesana_narino",
+      "facebook": "Ana Lucía Paz Artesanías"
+    },
+    "productos": ["prod-003", "prod-011", "prod-016"],
+    "destacado": true
+  },
+  {
+    "id": "art-004",
+    "nombre": "Pedro Ramírez",
+    "ubicacion": "Bolívar, Colombia",
+    "imagen": "/images/artisans/pedro-ramirez-sanjacinto.png",
+    "historia": "Pedro es un maestro tejedor de San Jacinto, Bolívar, cuna de la hamaca tradicional colombiana. Con 55 años, ha dedicado 40 de ellos al oficio del telar vertical, aprendido de su padre y su abuelo. Es especialista en hamacas y tejidos en fique, combinando la resistencia de las fibras tradicionales con diseños modernos.",
+    "filosofia": "Un buen tejido es como una buena amistad: mientras más tiempo le dedicas, más fuerte se vuelve.",
+    "proceso": [
+      {
+        "titulo": "Preparación del telar",
+        "descripcion": "El telar vertical se arma con maderas nobles y se tensan los hilos de algodón o fique.",
+        "imagen": "/images/artisans/process/pedro-ramirez-proceso-01.png"
+      },
+      {
+        "titulo": "Tejido manual",
+        "descripcion": "Cada hilo se entrelaza a mano siguiendo patrones tradicionales que han pasado por generaciones.",
+        "imagen": "/images/artisans/process/pedro-ramirez-proceso-02.png"
+      },
+      {
+        "titulo": "Teñido natural",
+        "descripcion": "Los colores se obtienen de plantas nativas: bija para el rojo, jagua para el azul, dividivi para el negro.",
+        "imagen": "/images/artisans/process/pedro-ramirez-proceso-03.png"
+      }
+    ],
+    "redes": {
+      "instagram": "@pedro_tejedor_sanjacinto"
+    },
+    "productos": ["prod-004", "prod-007", "prod-017"],
+    "destacado": false
+  },
+  {
+    "id": "art-005",
+    "nombre": "Rosa Elena Díaz",
+    "ubicacion": "Tolima, Colombia",
+    "imagen": "/images/artisans/rosa-elena-chamba.png",
+    "historia": "Rosa Elena es alfarera de La Chamba, una vereda del Tolima donde la cerámica negra es el alma de la comunidad. Heredó la técnica de su madre y abuela, y hoy es una de las pocas maestras que domina el proceso completo: desde la extracción de la arcilla hasta el pulido final con cuarzo, sin usar esmalte.",
+    "filosofia": "El barro negro de La Chamba guarda la memoria de nuestros ancestros. Al moldearlo, honramos su legado.",
+    "proceso": [
+      {
+        "titulo": "Extracción de arcilla",
+        "descripcion": "La arcilla negra se extrae del río Magdalena y se deja reposar para eliminar impurezas.",
+        "imagen": "/images/artisans/process/rosa-elena-proceso-01.png"
+      },
+      {
+        "titulo": "Modelado a mano",
+        "descripcion": "Cada pieza se modela en torno manual o a mano alzada, sin moldes industriales.",
+        "imagen": "/images/artisans/process/rosa-elena-proceso-02.png"
+      },
+      {
+        "titulo": "Cocción y pulido",
+        "descripcion": "Las piezas se cuecen en horno de leña y se pulen con cuarzo para lograr el brillo metálico característico.",
+        "imagen": "/images/artisans/process/rosa-elena-proceso-03.png"
+      }
+    ],
+    "redes": {
+      "instagram": "@rosa_ceramica_chamba"
+    },
+    "productos": ["prod-005", "prod-009", "prod-018"],
+    "destacado": true
+  },
+  {
+    "id": "art-006",
+    "nombre": "Lucía Gómez",
+    "ubicacion": "Boyacá, Colombia",
+    "imagen": "/images/artisans/lucia-gomez-boyaca.png",
+    "historia": "Lucía es tejedora en lana de Nobsa, Boyacá, un municipio conocido por sus textiles de lana de oveja. Aprendió el oficio en el taller familiar a los 12 años y desde entonces no ha parado de tejer. Se especializa en tapices, ponchos y ruanas, utilizando lana de oveja criolla teñida con tintes vegetales.",
+    "filosofia": "Tejer es como pintar con hilos. Cada poncho es un paisaje de nuestra tierra boyacense.",
+    "proceso": [
+      {
+        "titulo": "Hilado de la lana",
+        "descripcion": "La lana de oveja se lava, carda e hila a mano usando el huso tradicional.",
+        "imagen": "/images/artisans/process/lucia-gomez-proceso-01.png"
+      },
+      {
+        "titulo": "Teñido con plantas",
+        "descripcion": "Usamos cúrcuma, nogal, chilca y cochinilla para obtener colores naturales y duraderos.",
+        "imagen": "/images/artisans/process/lucia-gomez-proceso-02.png"
+      },
+      {
+        "titulo": "Tejido en telar",
+        "descripcion": "El telar horizontal se utiliza para crear tapices y ponchos con diseños geométricos tradicionales.",
+        "imagen": "/images/artisans/process/lucia-gomez-proceso-03.png"
+      }
+    ],
+    "redes": {
+      "instagram": "@lucia_tejedora_boyaca"
+    },
+    "productos": ["prod-006", "prod-010"],
+    "destacado": false
+  },
+  {
+    "id": "art-007",
+    "nombre": "Elena Torres",
+    "ubicacion": "Amazonas, Colombia",
+    "imagen": "/images/artisans/elena-torres-tikuna.png",
+    "historia": "Elena es una artesana Tikuna de la comunidad de San Martín de Amacayacu, en el Amazonas. Creció en la selva aprendiendo de su madre el tejido en fibra de chambira y la joyería de semillas. Hoy es líder de un colectivo de mujeres artesanas que transforman los recursos de la selva en piezas de alto valor cultural, promoviendo la conservación del bosque.",
+    "filosofia": "La selva nos da todo lo que necesitamos. Nuestro arte es una forma de agradecerle y protegerla.",
+    "proceso": [
+      {
+        "titulo": "Recolección de fibras",
+        "descripcion": "La chambira se extrae de la palma nativa en la selva, respetando los ciclos de la naturaleza.",
+        "imagen": "/images/artisans/process/elena-torres-proceso-01.png"
+      },
+      {
+        "titulo": "Teñido amazónico",
+        "descripcion": "Usamos achiote, huito y arcilla para teñir las fibras y semillas con colores de la selva.",
+        "imagen": "/images/artisans/process/elena-torres-proceso-02.png"
+      },
+      {
+        "titulo": "Tejido y ensamble",
+        "descripcion": "Cada pieza se teje o ensambla a mano, combinando semillas y fibras en diseños únicos.",
+        "imagen": "/images/artisans/process/elena-torres-proceso-03.png"
+      }
+    ],
+    "redes": {
+      "instagram": "@elena_tikuna_artesana"
+    },
+    "productos": ["prod-008", "prod-012", "prod-015"],
+    "destacado": true
+  }
+]

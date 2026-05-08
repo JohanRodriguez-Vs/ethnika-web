@@ -1,0 +1,170 @@
+# 🔧 SOLUCIÓN PROBLEMA CON NPM RUN DEV
+## Diagnóstico y Solución Paso a Paso
+
+---
+
+## 🔍 **PROBLEMA IDENTIFICADO:**
+
+### **Error 1:** `El token '&&' no es un separador de instrucciones válido`
+- **Causa:** PowerShell tiene problemas con caracteres especiales
+
+### **Error 2:** `No se puede cargar el archivo npm.ps1 porque la ejecución de scripts está deshabilitada`
+- **Causa:** Política de ejecución de PowerShell bloqueando scripts
+
+---
+
+## ✅ **SOLUCIONES:**
+
+### **SOLUCIÓN 1: Usar Git Bash (RECOMENDADO)**
+
+#### **Paso 1: Abrir Git Bash**
+1. Buscar "Git Bash" en el menú Inicio de Windows
+2. Click derecho → "Ejecutar como administrador"
+
+#### **Paso 2: Navegar al proyecto**
+```bash
+cd /c/AppServ/www/ethnika-by-col
+```
+
+#### **Paso 3: Ejecutar npm run dev**
+```bash
+npm run dev
+```
+
+### **SOLUCIÓN 2: PowerShell como Administrador**
+
+#### **Paso 1: Abrir PowerShell como Administrador**
+1. Windows + R
+2. Escribir "powershell"
+3. Ctrl + Shift + Enter (Ejecutar como administrador)
+
+#### **Paso 2: Cambiar política de ejecución**
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+#### **Paso 3: Navegar y ejecutar**
+```powershell
+cd c:\AppServ\www\ethnika-by-col
+npm run dev
+```
+
+### **SOLUCIÓN 3: VS Code Terminal Integrada**
+
+#### **Paso 1: Abrir proyecto en VS Code**
+1. Abrir VS Code
+2. File → Open Folder → Seleccionar `ethnika-by-col`
+
+#### **Paso 2: Abrir terminal integrada**
+1. Ctrl + ` (comilla invertida) o Ctrl + ñ
+2. O View → Terminal
+
+#### **Paso 3: Ejecutar**
+```bash
+npm run dev
+```
+
+### **SOLUCIÓN 4: CMD Clásico**
+
+#### **Paso 1: Abrir CMD**
+1. Windows + R
+2. Escribir "cmd" y Enter
+
+#### **Paso 2: Ejecutar**
+```cmd
+cd c:\AppServ\www\ethnika-by-col
+npm run dev
+```
+
+---
+
+## 🎯 **VERIFICACIÓN DE DEPENDENCIAS**
+
+### **Antes de ejecutar npm run dev:**
+```bash
+# Verificar Node.js instalado
+node --version
+
+# Verificar npm instalado
+npm --version
+
+# Verificar dependencias instaladas
+npm list --depth=0
+
+# Si faltan dependencias:
+npm install
+```
+
+---
+
+## 🔄 **SI NADA FUNCIONA:**
+
+### **Opción A: Reinstalar Node.js**
+1. Descargar desde: https://nodejs.org
+2. Instalar versión LTS (Recomendado)
+3. Reiniciar computadora
+
+### **Opción B: Limpiar caché npm**
+```bash
+npm cache clean --force
+npm install
+npm run dev
+```
+
+### **Opción C: Usar npx**
+```bash
+npx vite
+```
+
+---
+
+## 📱 **RESULTADO ESPERADO:**
+
+Al ejecutar `npm run dev` deberías ver:
+```
+  VITE v6.x.x  ready in xxx ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h to show help
+```
+
+Y al abrir http://localhost:5173/ en tu navegador:
+- ✅ Página de ETHNIKA BY COL cargando
+- ✅ Todas las imágenes funcionando
+- ✅ Navegación completa
+
+---
+
+## 🚨 **MENSAJES DE ERROR COMUNES:**
+
+### **Error: "Cannot resolve dependency"**
+```bash
+npm install --force
+```
+
+### **Error: "Port already in use"**
+```bash
+# Cambiar puerto en vite.config.js
+server: {
+  port: 3000, // o cualquier otro puerto
+}
+```
+
+### **Error: "Module not found"**
+```bash
+rm -rf node_modules package-lock.json
+npm install
+```
+
+---
+
+## 🎉 **ÉXITO:**
+
+Una vez funcionando `npm run dev`:
+1. **Continúa con Git Bash** para los comandos Git
+2. **Usa VS Code** para desarrollo
+3. **Sigue la guía** para subir a GitHub
+4. **Despliega en Vercel** cuando esté listo
+
+**¡Tu proyecto ETHNIKA BY COL funcionará perfectamente!** 🚀

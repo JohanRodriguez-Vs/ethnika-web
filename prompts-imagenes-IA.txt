@@ -1,0 +1,342 @@
+# PROMPTS PARA GENERACIÓN DE IMÁGENES CON IA - ETHNIKA BY COL
+
+## 📋 INSTRUCCIONES GENERALES
+- Estilo: Fotográfico realista, iluminación natural, alta calidad
+- Resolución: 1024x1024px (luego redimensionar según especificación)
+- No incluir texto ni marcas de agua
+- Enfoque cultural colombiano auténtico
+
+---
+
+## 👤 IMÁGENES DE ARTESANOS (600x600px)
+**Carpeta:** /public/images/artisans/
+
+### 1. María Fernández - Tejedora Wayuu
+**Nombre:** maria-fernandez-wayuu.jpg
+**Prompt:** "Retrato de una mujer colombiana wayuu de 42 años, tejiendo mochila tradicional con crochet, vestida con traje típico wayuu de colores vivos, pelo largo oscuro, expresión amable, fondo de paisaje desértico de La Guajira, iluminación natural, estilo fotográfico realista"
+
+### 2. Carlos Martínez - Artesano Zenú  
+**Nombre:** carlos-martinez-zenu.jpg
+**Prompt:** "Retrato de un hombre colombiano de 55 años, artesano Zenú, tejiendo sombrero vueltiao con fibra de caña flecha, manos callosas por el trabajo, vestido con ropa tradicional, fondo de paisaje de Córdoba con palmas, iluminación cálida natural, estilo fotográfico realista"
+
+### 3. Ana Lucía Paz - Orfebre Nariñense
+**Nombre:** ana-lucia-paz-narino.jpg  
+**Prompt:** "Retrato de una mujer colombiana de 38 años, orfebre de San Juan de Pasto, trabajando plata con herramientas tradicionales, delantal de trabajo, pelo recogido, gafas de seguridad, fondo de taller artesanal con piezas de plata, iluminación suave natural, estilo fotográfico realista"
+
+### 4. Pedro Ramírez - Tejedor de Hamacas
+**Nombre:** pedro-ramirez-sanjacinto.jpg
+**Prompt:** "Retrato de un hombre colombiano de 55 años, tejedor tradicional de San Jacinto, trabajando en telar vertical, manos expertas tejiendo algodón, vestido con ropa de trabajo sencilla, fondo de taller con telares y hamacas, iluminación natural cálida, estilo fotográfico realista"
+
+### 5. Rosa Elena Díaz - Alfarera de La Chamba
+**Nombre:** rosa-elena-chamba.jpg
+**Prompt:** "Retrato de una mujer colombiana de 50 años, alfarera de La Chamba Tolima, manos con arcilla negra, delantal manchado de barro, pelo recogido, expresión concentrada, fondo de taller con piezas de cerámica negra, iluminación suave natural, estilo fotográfico realista"
+
+### 6. Lucía Gómez - Tejedora de Lana
+**Nombre:** lucia-gomez-boyaca.jpg
+**Prompt:** "Retrato de una mujer colombiana de 45 años, tejedora de Nobsa Boyacá, trabajando con lana de oveja en telar horizontal, manos expertas, vestida con ruana tradicional, fondo de paisaje andino boyacense, iluminación natural brillante, estilo fotográfico realista"
+
+### 7. Elena Torres - Artesana Tikuna
+**Nombre:** elena-torres-tikuna.jpg
+**Prompt:** "Retrato de una mujer colombiana indígena Tikuna de 35 años, trabajando con fibras de chambira y semillas amazónicas, pintura facial tradicional, vestido con textiles típicos, fondo de selva amazónica, iluminación verde natural, estilo fotográfico realista"
+
+---
+
+## 🔧 IMÁGENES DE PROCESO ARTESANAL (400x300px)
+**Carpeta:** /public/images/artisans/process/
+
+### María Fernández - Proceso Wayuu
+**Nombre:** maria-fernandez-proceso-01.jpg
+**Prompt:** "Primer plano de manos seleccionando hilos acrílicos de colores vivos para tejido Wayuu, sobre mesa de madera, iluminación natural brillante, estilo fotográfico realista, enfoque nítido en los hilos"
+
+**Nombre:** maria-fernandez-proceso-02.jpg  
+**Prompt:** "Primer plano de manos tejiendo mochila Wayuu con técnica crochet, punto por punto, hilo de colores brillantes, fondo difuminado, iluminación suave natural, estilo fotográfico realista"
+
+**Nombre:** maria-fernandez-proceso-03.jpg
+**Prompt:** "Detalle de diseño geométrico tradicional Wayuu en mochila tejida, patrones simbólicos sol y luna, colores vibrantes, iluminación uniforme, estilo fotográfico realista macro"
+
+### Carlos Martínez - Proceso Zenú
+**Nombre:** carlos-martinez-proceso-01.jpg
+**Prompt:** "Primer plano de manos cosechando caña flecha en ribera de río, plantas verdes, agua de fondo, iluminación matutina natural, estilo fotográfico realista"
+
+**Nombre:** carlos-martinez-proceso-02.jpg
+**Prompt:** "Primer plano de fibras de caña flecha teñidas con pigmentos naturales, colores tierra, sobre mesa de madera, iluminación suave, estilo fotográfico realista"
+
+**Nombre:** carlos-martinez-proceso-03.jpg
+**Prompt:** "Primer plano de manos tejiendo sombrero vueltiao en espiral, técnica tradicional, fibra dorada, fondo de taller artesanal, iluminación cálida, estilo fotográfico realista"
+
+### Ana Lucía Paz - Proceso Orfebrería
+**Nombre:** ana-lucia-proceso-01.jpg
+**Prompt:** "Primer plano de manos dibujando diseño de colibrí en papel, lápiz y regla, mesa de trabajo, iluminación suave natural, estilo fotográfico realista"
+
+**Nombre:** ana-lucia-proceso-02.jpg
+**Prompt:** "Primer plano de manos tallando plata con herramientas tradicionales, metal brillante, chispas mínimas, fondo de taller, iluminación focal, estilo fotográfico realista"
+
+**Nombre:** ana-lucia-proceso-03.jpg
+**Prompt:** "Primer plano de manos puliendo joya de plata, brillo metálico, herramientas de pulido, iluminación suave, estilo fotográfico realista"
+
+### Pedro Ramírez - Proceso Tejido
+**Nombre:** pedro-ramirez-proceso-01.jpg
+**Prompt:** "Primer plano de manos preparando telar vertical con maderas, tensando hilos de algodón, herramientas tradicionales, iluminación natural, estilo fotográfico realista"
+
+**Nombre:** pedro-ramirez-proceso-02.jpg
+**Prompt:** "Primer plano de manos tejiendo hamaca en telar, entrelazando hilos, patrones tradicionales, fondo difuminado, iluminación suave, estilo fotográfico realista"
+
+**Nombre:** pedro-ramirez-proceso-03.jpg
+**Prompt:** "Primer plano de tintes naturales sobre fibras, colores tierra extraídos de plantas, recipientes de cerámica, iluminación natural, estilo fotográfico realista"
+
+### Rosa Elena Díaz - Proceso Cerámica
+**Nombre:** rosa-elena-proceso-01.jpg
+**Prompt:** "Primer plano de manos extrayendo arcilla negra de río, barro húmedo brillante, agua corriente, iluminación matutina, estilo fotográfico realista"
+
+**Nombre:** rosa-elena-proceso-02.jpg
+**Prompt:** "Primer plano de manos modelando vaso de cerámica en torno, técnica tradicional, arcilla negra lisa, iluminación suave, estilo fotográfico realista"
+
+**Nombre:** rosa-elena-proceso-03.jpg
+**Prompt:** "Primer plano de manos puliendo cerámica con cuarzo, brillo metálico característico, pieza terminada, iluminación focal, estilo fotográfico realista"
+
+### Lucía Gómez - Proceso Lana
+**Nombre:** lucia-gomez-proceso-01.jpg
+**Prompt:** "Primer plano de manos hilando lana de oveja con huso tradicional, fibra blanca suave, herramientas rústicas, iluminación natural, estilo fotográfico realista"
+
+**Nombre:** lucia-gomez-proceso-02.jpg
+**Prompt:** "Primer plano de tintes vegetales en recipientes, cúrcuma amarilla, nogal marrón, lanas teñidas, iluminación brillante, estilo fotográfico realista"
+
+**Nombre:** lucia-gomez-proceso-03.jpg
+**Prompt:** "Primer plano de manos tejiendo tapiz en telar horizontal, lanas de colores, diseños geométricos, iluminación suave, estilo fotográfico realista"
+
+### Elena Torres - Proceso Amazónico
+**Nombre:** elena-torres-proceso-01.jpg
+**Prompt:** "Primer plano de manos recolectando fibras de palma chambira en selva, plantas verdes, luz filtrada, iluminación natural, estilo fotográfico realista"
+
+**Nombre:** elena-torres-proceso-02.jpg
+**Prompt:** "Primer plano de tintes amazónicos, achiote rojo, huito negro, arcilla, semillas, fibras teñidas, iluminación verde, estilo fotográfico realista"
+
+**Nombre:** elena-torres-proceso-03.jpg
+**Prompt:** "Primer plano de manos ensamblando joyería con semillas y fibras, diseño intrincado, colores naturales, iluminación suave, estilo fotográfico realista"
+
+---
+
+## 📦 IMÁGENES DE PRODUCTOS (600x600px)
+**Carpeta:** /public/images/products/
+
+### 1. Mochila Wayuu
+**Nombre:** mochila-wayuu-001.jpg
+**Prompt:** "Mochila tradicional Wayuu tejida a mano con crochet, diseños geométricos simbólicos colores vivos, sobre fondo neutro, iluminación suave, estilo fotográfico de producto realista, alta calidad"
+
+**Nombre:** mochila-wayuu-001-detalle.jpg
+**Prompt:** "Primer plano detalle de tejido Wayuu, puntos de crochet, textura intrincada, colores brillantes, fondo blanco, iluminación uniforme, estilo fotográfico macro realista"
+
+### 2. Sombrero Vueltiao
+**Nombre:** sombrero-vueltiao-002.jpg
+**Prompt:** "Sombrero vueltiao auténtico tejido en caña flecha, patrón en espiral perfecto, colores negro y dorado, sobre fondo neutro, iluminación suave, estilo fotográfico de producto realista"
+
+**Nombre:** sombrero-vueltiao-002-detalle.jpg
+**Prompt:** "Primer plano detalle de tejido vueltiao, fibra de caña flecha, textura natural, patrón intrincado, fondo blanco, iluminación focal, estilo fotográfico macro realista"
+
+### 3. Colgante Plata Colibrí
+**Nombre:** colgante-plata-colibri-003.jpg
+**Prompt:** "Colgante de plata ley 950 con diseño de colibrí, tallado a mano, brillo metálico suave, sobre fondo negro, iluminación suave, estilo fotográfico de joyería realista"
+
+**Nombre:** colgante-plata-colibri-003-detalle.jpg
+**Prompt:** "Primer plano detalle de colibrí de plata, textura del metal, detalles finos del tallado, fondo oscuro, iluminación focal, estilo fotográfico macro realista"
+
+### 4. Hamaca San Jacinto
+**Nombre:** hamaca-sanjacinto-004.jpg
+**Prompt:** "Hamaca tradicional tejida en telar vertical, algodón nativo con franjas de colores naturales, extendida elegantemente, fondo neutro, iluminación suave, estilo fotográfico de producto realista"
+
+**Nombre:** hamaca-sanjacinto-004-detalle.jpg
+**Prompt:** "Primer plano detalle de tejido de hamaca, textura de algodón, nudos tradicionales, colores naturales, fondo blanco, iluminación uniforme, estilo fotográfico macro realista"
+
+### 5. Vaso Cerámica La Chamba
+**Nombre:** vaso-ceramica-chamba-005.jpg
+**Prompt:** "Vaso ceremonial de cerámica negra tradicional de La Chamba, brillo metálico característico sin esmalte, forma elegante, sobre fondo oscuro, iluminación suave, estilo fotográfico de producto realista"
+
+**Nombre:** vaso-ceramica-chamba-005-detalle.jpg
+**Prompt:** "Primer plano detalle de cerámica negra, textura pulida con cuarzo, brillo metálico, imperfecciones artesanales, fondo negro, iluminación focal, estilo fotográfico macro realista"
+
+### 6. Tapiz Paisaje Cafetero
+**Nombre:** tapiz-paisaje-cafetero-006.jpg
+**Prompt:** "Tapiz tejido en lana representando paisaje cafetero colombiano, montañas verdes, cafetales, casa campesina, colores naturales, sobre fondo neutro, iluminación suave, estilo fotográfico de producto realista"
+
+**Nombre:** tapiz-paisaje-cafetero-006-detalle.jpg
+**Prompt:** "Primer plano detalle de tapiz en lana, textura del tejido, colores naturales, detalles de montañas y cafetales, fondo blanco, iluminación uniforme, estilo fotográfico macro realista"
+
+### 7. Bolso Ecológico Fique
+**Nombre:** bolso-ecologico-fique-007.jpg
+**Prompt:** "Bolso ecológico tejido en fique de color natural, diseño contemporáneo, asas resistentes, sobre fondo neutro, iluminación suave, estilo fotográfico de producto realista"
+
+**Nombre:** bolso-ecologico-fique-007-detalle.jpg
+**Prompt:** "Primer plano detalle de tejido en fique, textura rústica natural, fibras entrelazadas, fondo blanco, iluminación uniforme, estilo fotográfico macro realista"
+
+### 8. Canasta Chambira
+**Nombre:** canasta-chambira-008.jpg
+**Prompt:** "Canasta tejida en fibra de chambira amazónica, diseño circular resistente, colores tierra naturales, sobre fondo neutro, iluminación suave, estilo fotográfico de producto realista"
+
+**Nombre:** canasta-chambira-008-detalle.jpg
+**Prompt:** "Primer plano detalle de tejido en chambira, fibra natural resistente, técnica de trenzado, colores naturales, fondo blanco, iluminación uniforme, estilo fotográfico macro realista"
+
+### 9. Collar Semillas Amazónicas
+**Nombre:** collar-semillas-amazonicas-009.jpg
+**Prompt:** "Collar artesanal con semillas amazónicas y fibras naturales, diseño simétrico, colores tierra, sobre fondo oscuro, iluminación suave, estilo fotográfico de joyería realista"
+
+**Nombre:** collar-semillas-amazonicas-009-detalle.jpg
+**Prompt:** "Primer plano detalle de semillas amazónicas, texturas naturales, fibras entrelazadas, nudos tradicionales, fondo negro, iluminación focal, estilo fotográfico macro realista"
+
+### 10. Ruana Lana Boyacense
+**Nombre:** ruana-lana-boyacense-010.jpg
+**Prompt:** "Ruana tradicional tejida en lana de oveja, diseños geométricos andinos, colores tierra naturales, extendida mostrando patrón, sobre fondo neutro, iluminación suave, estilo fotográfico de producto realista"
+
+**Nombre:** ruana-lana-boyacense-010-detalle.jpg
+**Prompt:** "Primer plano detalle de tejido en lana, textura suave, colores naturales, diseños geométricos, fondo blanco, iluminación uniforme, estilo fotográfico macro realista"
+
+### 11. Espejo Tallado Madera
+**Nombre:** espejo-tallado-madera-011.jpg
+**Prompt:** "Espejo circular con marco tallado en madera, diseños precolombinos, acabado natural, sobre fondo neutro, iluminación suave, estilo fotográfico de producto realista"
+
+**Nombre:** espejo-tallado-madera-011-detalle.jpg
+**Prompt:** "Primer plano detalle de tallado en madera, textura de la madera, diseños intrincados, fondo blanco, iluminación focal, estilo fotográfico macro realista"
+
+### 12. Cesta Iraca
+**Nombre:** cesta-iraca-012.jpg
+**Prompt:** "Cesta tejida en fibra de iraca, diseño tradicional con tapa, colores naturales, sobre fondo neutro, iluminación suave, estilo fotográfico de producto realista"
+
+**Nombre:** cesta-iraca-012-detalle.jpg
+**Prompt:** "Primer plano detalle de tejido en iraca, fibra flexible, técnica de trenzado, colores naturales, fondo blanco, iluminación uniforme, estilo fotográfico macro realista"
+
+### 13. Alpargatas Cuero
+**Nombre:** alpargatas-cuero-013.jpg
+**Prompt:** "Alpargatas tradicionales colombianas, cuero tejido a mano, suela de yute, diseño clásico, sobre fondo neutro, iluminación suave, estilo fotográfico de producto realista"
+
+**Nombre:** alpargatas-cuero-013-detalle.jpg
+**Prompt:** "Primer plano detalle de tejido en cuero, textura del material, puntada manual, suela de yute, fondo blanco, iluminación focal, estilo fotográfico macro realista"
+
+### 14. Mochila Arhuaca
+**Nombre:** mochila-arhuaca-014.jpg
+**Prompt:** "Mochila tradicional Arhuaca tejida en lana, diseños simbólicos, colores tierra, forma rectangular característica, sobre fondo neutro, iluminación suave, estilo fotográfico de producto realista"
+
+**Nombre:** mochila-arhuaca-014-detalle.jpg
+**Prompt:** "Primer plano detalle de tejido Arhuaco, textura de lana, diseños simbólicos, colores naturales, fondo blanco, iluminación uniforme, estilo fotográfico macro realista"
+
+### 15. Pulsera Tagua
+**Nombre:** pulsera-tagua-015.jpg
+**Prompt:** "Pulsera tejida en semillas de tagua pulidas, colores naturales, diseño elástico, sobre fondo oscuro, iluminación suave, estilo fotográfico de joyería realista"
+
+**Nombre:** pulsera-tagua-015-detalle.jpg
+**Prompt:** "Primer plano detalle de semillas de tagua, textura pulida, brillo natural, colores tierra, fondo negro, iluminación focal, estilo fotográfico macro realista"
+
+### 16. Anillo Plata
+**Nombre:** anillo-plata-016.jpg
+**Prompt:** "Anillo de plata ley 950 con diseño precolombino, tallado a mano, brillo metálico suave, sobre fondo negro, iluminación suave, estilo fotográfico de joyería realista"
+
+**Nombre:** anillo-plata-016-detalle.jpg
+**Prompt:** "Primer plano detalle de anillo de plata, textura del metal, detalles finos del tallado, diseño precolombino, fondo negro, iluminación focal, estilo fotográfico macro realista"
+
+### 17. Manta Telar
+**Nombre:** manta-telar-017.jpg
+**Prompt:** "Manta tejida en telar vertical con algodón, diseños tradicionales, colores naturales, bordes terminados, sobre fondo neutro, iluminación suave, estilo fotográfico de producto realista"
+
+**Nombre:** manta-telar-017-detalle.jpg
+**Prompt:** "Primer plano detalle de tejido en telar, textura de algodón, patrones tradicionales, colores naturales, fondo blanco, iluminación uniforme, estilo fotográfico macro realista"
+
+### 18. Plato Cerámica
+**Nombre:** plato-ceramica-018.jpg
+**Prompt:** "Plato de cerámica negra tradicional de La Chamba, forma circular perfecta, brillo metálico, sobre fondo oscuro, iluminación suave, estilo fotográfico de producto realista"
+
+**Nombre:** plato-ceramica-018-detalle.jpg
+**Prompt:** "Primer plano detalle de cerámica negra, textura pulida, brillo metálico característico, borde perfecto, fondo negro, iluminación focal, estilo fotográfico macro realista"
+
+---
+
+## 🏷️ IMÁGENES DE CATEGORÍAS (600x400px)
+**Carpeta:** /public/images/categories/
+
+### 1. Textiles
+**Nombre:** textiles-banner.jpg
+**Prompt:** "Composición de productos textiles colombianos: ruana, tapiz, hamaca y poncho, sobre fondo neutro, iluminación suave, estilo fotográfico de producto realista, alta calidad"
+
+### 2. Joyería Artesanal
+**Nombre:** joyeria-artesanal-banner.jpg
+**Prompt:** "Composición de joyería artesanal colombiana: collar de plata, aretes de semillas, pulsera tagua, sobre fondo oscuro, iluminación suave, estilo fotográfico de joyería realista"
+
+### 3. Decoración
+**Nombre:** decoracion-banner.jpg
+**Prompt:** "Composición de piezas decorativas colombianas: espejo tallado, cesta iraca, tapiz, sobre fondo neutro, iluminación suave, estilo fotográfico de producto realista"
+
+### 4. Bolsos y Mochilas
+**Nombre:** bolsos-mochilas-banner.jpg
+**Prompt:** "Composición de bolsos y mochilas colombianas: mochila Wayuu, mochila Arhuaca, bolso fique, sobre fondo neutro, iluminación suave, estilo fotográfico de producto realista"
+
+### 5. Cerámica
+**Nombre:** ceramica-banner.jpg
+**Prompt:** "Composición de piezas de cerámica colombiana: vaso La Chamba, plato, taza, sobre fondo oscuro, iluminación suave, estilo fotográfico de producto realista"
+
+### 6. Accesorios Culturales
+**Nombre:** accesorios-culturales-banner.jpg
+**Prompt:** "Composición de accesorios culturales colombianos: sombrero vueltiao, alpargatas, sobre fondo neutro, iluminación suave, estilo fotográfico de producto realista"
+
+---
+
+## 👥 IMÁGENES DE USUARIOS (200x200px)
+**Carpeta:** /public/images/users/
+
+### 1. Avatar Admin
+**Nombre:** admin-avatar.jpg
+**Prompt:** "Retrato profesional de mujer colombiana 35 años, pelo castaño, sonrisa amable, ropa casual elegante, fondo neutro, iluminación suave, estilo fotográfico realista"
+
+### 2. Avatar Cliente Demo
+**Nombre:** cliente-avatar.jpg
+**Prompt:** "Retrato profesional de hombre colombiano 28 años, pelo corto, expresión amigable, ropa casual, fondo neutro, iluminación suave, estilo fotográfico realista"
+
+### 3. Avatar Carolina
+**Nombre:** carolina-avatar.jpg
+**Prompt:** "Retrato profesional de mujer colombiana 32 años, pelo largo oscuro, sonrisa cálida, ropa moderna, fondo neutro, iluminación suave, estilo fotográfico realista"
+
+### 4. Avatar Andrés
+**Nombre:** andres-avatar.jpg
+**Prompt:** "Retrato profesional de hombre colombiano 30 años, pelo castaño, expresión amigable, ropa casual, fondo neutro, iluminación suave, estilo fotográfico realista"
+
+---
+
+## 🖼️ IMÁGENES FALLBACK/DEFAULT
+**Carpeta:** /public/images/artisans/
+
+### Avatar Default
+**Nombre:** default-avatar.jpg
+**Prompt:** "Silueta neutra de persona, fondo gris suave, sin detalles faciales, estilo minimalista, iluminación uniforme, alto contraste"
+
+---
+
+## 📝 NOTAS FINALES
+
+### **Recomendaciones para Generación:**
+1. **IA Sugeridas:** Midjourney, DALL-E 3, Stable Diffusion
+2. **Parámetros:** Realismo fotográfico, alta calidad, sin texto
+3. **Estilo:** Natural, auténtico, cultural colombiano
+4. **Iluminación:** Preferiblemente natural, suave, uniforme
+
+### **Post-producción:**
+1. Redimensionar a especificaciones exactas
+2. Optimizar para web (calidad 80-90%)
+3. Convertir a formato WebP si es posible
+4. Mantener nombres de archivo exactos según lista
+
+### **Total de Imágenes a Generar:**
+- Artesanos: 7 imágenes
+- Proceso Artesanal: 21 imágenes  
+- Productos: 36 imágenes (18 principales + 18 detalles)
+- Categorías: 6 imágenes
+- Usuarios: 4 imágenes
+- Default: 1 imagen
+- **TOTAL: 75 imágenes**
+
+---
+
+## 🔄 PASOS SIGUIENTES
+
+1. **Generar imágenes** usando estos prompts en tu IA preferida
+2. **Descargar y organizar** según carpetas especificadas
+3. **Redimensionar y optimizar** según medidas indicadas
+4. **Actualizar archivos JSON** con nuevas rutas
+5. **Probar aplicación** para verificar carga correcta
+
+¡Listo para comenzar la migración a imágenes locales! 🚀

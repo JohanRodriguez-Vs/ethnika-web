@@ -1,0 +1,42 @@
+[
+  {
+    "id": "usr-001",
+    "nombre": "Admin ETHNIKA",
+    "email": "admin@ethnikabycol.com",
+    "password": "admin123",
+    "role": "admin",
+    "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&h=200&fit=crop",
+    "telefono": "+57 300 123 4567",
+    "fechaRegistro": "2025-01-15"
+  },
+  {
+    "id": "usr-002",
+    "nombre": "Cliente Demo",
+    "email": "cliente@demo.com",
+    "password": "cliente123",
+    "role": "user",
+    "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&h=200&fit=crop",
+    "telefono": "+57 300 123 4567",
+    "fechaRegistro": "2025-01-15"
+  },
+  {
+    "id": "usr-003",
+    "nombre": "Carolina Restrepo",
+    "email": "carolina@email.com",
+    "password": "usuario123",
+    "role": "user",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
+    "telefono": "+57 310 987 6543",
+    "fechaRegistro": "2025-06-20"
+  },
+  {
+    "id": "usr-004",
+    "nombre": "Andrés López",
+    "email": "andres@email.com",
+    "password": "usuario123",
+    "role": "user",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+    "telefono": "+57 320 456 7890",
+    "fechaRegistro": "2025-08-10"
+  }
+]

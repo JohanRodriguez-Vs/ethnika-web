@@ -1,0 +1,154 @@
+/* =========================================================
+   ETHNIKA BY COL - Global Styles
+   Complementa Tailwind con reglas globales del proyecto.
+   ========================================================= */
+
+:root {
+  --ethnika-bg: #f5f3ef;
+  --ethnika-text: #1a1a1a;
+  --ethnika-gold: #c6a75e;
+  --ethnika-gold-dark: #b8975f;
+  --ethnika-border: #e0d9ce;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--ethnika-bg);
+  color: var(--ethnika-text);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Scrollbar personalizada (WebKit) */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ede9e0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--ethnika-gold) 0%, var(--ethnika-gold-dark) 100%);
+  border-radius: 999px;
+  border: 2px solid #ede9e0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a58456;
+}
+
+/* Selección de texto */
+::selection {
+  background: rgba(198, 167, 94, 0.35);
+  color: #1a1a1a;
+}
+
+/* Elementos multimedia */
+iframe {
+  border: 0;
+}
+
+/* Clases utilitarias globales (sin depender de Tailwind) */
+.ethnika-page {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.ethnika-main {
+  width: min(100%, 1200px);
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.ethnika-divider {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, var(--ethnika-border) 25%, var(--ethnika-border) 75%, transparent 100%);
+}
+
+.ethnika-visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* Ajustes responsive base */
+@media (min-width: 640px) {
+  .ethnika-main {
+    padding-inline: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ethnika-main {
+    padding-inline: 1.5rem;
+  }
+}
+
+/* Respeto por usuarios con reducción de movimiento */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,31 @@
+# PROMPT PARA IMAGEN DEFAULT DE PRODUCTO - ETHNIKA BY COL
+
+## 📦 IMAGEN DEFAULT DE PRODUCTO (600x600px)
+**Carpeta:** /public/images/products/
+**Nombre:** default-product.png
+
+## 🎨 PROMPT PARA IA:
+
+"Producto artesano colombiano genérico, silueta suave de artesanía tradicional sin detalles específicos, fondo neutro liso gris claro, estilo minimalista moderno, iluminación suave uniforme, sin texto ni marcas, alta calidad fotográfica, imagen placeholder profesional para ecommerce"
+
+## 📋 ESPECIFICACIONES TÉCNICAS:
+- **Resolución:** 1024x1024px (generar) → 600x600px (final)
+- **Formato:** PNG con transparencia o JPG
+- **Estilo:** Minimalista, profesional, neutro
+- **Iluminación:** Suave y uniforme
+- **Fondo:** Gris claro (#F5F3EF para coincidir con el tema)
+- **Contenido:** Forma genérica de producto artesano
+
+## 🎯 OBJETIVO:
+Crear una imagen placeholder versátil que funcione para cualquier tipo de producto artesano cuando no esté disponible la imagen específica.
+
+## 🔄 USO:
+Esta imagen se usará como fallback en todos los componentes de productos cuando:
+- La imagen del producto no cargue
+- El producto no tenga imagen asignada
+- Haya errores en la carga de imágenes
+
+## 📝 NOTAS ADICIONALES:
+- No incluir elementos culturales específicos para mantener neutralidad
+- Diseño simple y elegante que no compita con productos reales
+- Debe verse profesional y confiable para clientes

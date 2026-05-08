@@ -1,0 +1,50 @@
+[
+  {
+    "id": "textiles",
+    "nombre": "Textiles",
+    "descripcion": "Tejidos, ponchos, hamacas y tapetes elaborados en lana, algodón y fibras naturales con técnicas ancestrales.",
+    "imagen": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&h=400&fit=crop",
+    "productCount": 3,
+    "destacado": true
+  },
+  {
+    "id": "joyeria",
+    "nombre": "Joyería Artesanal",
+    "descripcion": "Piezas únicas en plata, tagua, semillas amazónicas y materiales nobles talladas a mano por orfebres colombianos.",
+    "imagen": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=600&h=400&fit=crop",
+    "productCount": 4,
+    "destacado": true
+  },
+  {
+    "id": "decoracion",
+    "nombre": "Decoración",
+    "descripcion": "Tapices, espejos tallados, cestas y piezas decorativas que transforman cualquier espacio con identidad cultural.",
+    "imagen": "https://images.unsplash.com/photo-1586105251261-72a756497a11?w=600&h=400&fit=crop",
+    "productCount": 3,
+    "destacado": true
+  },
+  {
+    "id": "bolsos-mochilas",
+    "nombre": "Bolsos y Mochilas",
+    "descripcion": "Mochilas Wayuu, Arhuacas, bolsos en fique y accesorios tejidos que combinan tradición y funcionalidad.",
+    "imagen": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&h=400&fit=crop",
+    "productCount": 3,
+    "destacado": true
+  },
+  {
+    "id": "ceramica",
+    "nombre": "Cerámica",
+    "descripcion": "Piezas de barro, cerámica negra de La Chamba y alfarería de Ráquira con técnicas precolombinas.",
+    "imagen": "https://images.unsplash.com/photo-1612196808214-bf5e2b0e8a3b?w=600&h=400&fit=crop",
+    "productCount": 3,
+    "destacado": true
+  },
+  {
+    "id": "accesorios",
+    "nombre": "Accesorios Culturales",
+    "descripcion": "Sombreros vueltiaos, alpargatas y accesorios que llevan la identidad colombiana a cada detalle.",
+    "imagen": "https://images.unsplash.com/photo-1597142491576-4b8e5f0d0c4f?w=600&h=400&fit=crop",
+    "productCount": 2,
+    "destacado": false
+  }
+]

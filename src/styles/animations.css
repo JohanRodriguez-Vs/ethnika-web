@@ -1,0 +1,283 @@
+/* =========================================================
+   ETHNIKA BY COL - Motion System
+   Animaciones suaves, elegantes y de bajo costo visual.
+   ========================================================= */
+
+:root {
+  --motion-fast: 180ms;
+  --motion-base: 320ms;
+  --motion-slow: 520ms;
+  --motion-xl: 800ms;
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out-soft: cubic-bezier(0.45, 0, 0.55, 1);
+}
+
+/* ---------------------------
+   Keyframes base
+---------------------------- */
+@keyframes eth-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes eth-slide-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 18px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes eth-slide-down {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -16px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes eth-slide-left {
+  from {
+    opacity: 0;
+    transform: translate3d(16px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes eth-slide-right {
+  from {
+    opacity: 0;
+    transform: translate3d(-16px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes eth-scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes eth-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes eth-shimmer {
+  0% {
+    transform: translateX(-120%);
+  }
+  100% {
+    transform: translateX(120%);
+  }
+}
+
+@keyframes eth-glow-gold {
+  0%,
+  100% {
+    box-shadow: 0 0 0 rgba(198, 167, 94, 0.2);
+  }
+  50% {
+    box-shadow: 0 12px 28px rgba(198, 167, 94, 0.35);
+  }
+}
+
+/* ---------------------------
+   Clases de entrada
+---------------------------- */
+.anim-fade-in {
+  animation: eth-fade-in var(--motion-base) var(--ease-out-soft) both;
+}
+
+.anim-slide-up {
+  animation: eth-slide-up var(--motion-base) var(--ease-out-soft) both;
+}
+
+.anim-slide-down {
+  animation: eth-slide-down var(--motion-base) var(--ease-out-soft) both;
+}
+
+.anim-slide-left {
+  animation: eth-slide-left var(--motion-base) var(--ease-out-soft) both;
+}
+
+.anim-slide-right {
+  animation: eth-slide-right var(--motion-base) var(--ease-out-soft) both;
+}
+
+.anim-scale-in {
+  animation: eth-scale-in var(--motion-base) var(--ease-out-soft) both;
+}
+
+/* Delay helpers */
+.anim-delay-100 {
+  animation-delay: 100ms;
+}
+
+.anim-delay-200 {
+  animation-delay: 200ms;
+}
+
+.anim-delay-300 {
+  animation-delay: 300ms;
+}
+
+.anim-delay-500 {
+  animation-delay: 500ms;
+}
+
+/* ---------------------------
+   Interacciones UI
+---------------------------- */
+.hover-lift {
+  transition:
+    transform var(--motion-base) var(--ease-out-soft),
+    box-shadow var(--motion-base) var(--ease-out-soft);
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 32px -16px rgba(26, 26, 26, 0.35);
+}
+
+.hover-zoom-image {
+  overflow: hidden;
+}
+
+.hover-zoom-image > img,
+.hover-zoom-image > picture img {
+  transition: transform var(--motion-slow) var(--ease-out-soft);
+  transform-origin: center;
+}
+
+.hover-zoom-image:hover > img,
+.hover-zoom-image:hover > picture img {
+  transform: scale(1.04);
+}
+
+.hover-gold-glow {
+  transition: box-shadow var(--motion-base) var(--ease-out-soft);
+}
+
+.hover-gold-glow:hover {
+  animation: eth-glow-gold 1.5s var(--ease-in-out-soft) infinite;
+}
+
+/* ---------------------------
+   Scroll reveal helpers
+---------------------------- */
+[data-reveal] {
+  opacity: 0;
+  transform: translate3d(0, 18px, 0);
+  transition:
+    opacity 600ms var(--ease-out-soft),
+    transform 600ms var(--ease-out-soft);
+  will-change: opacity, transform;
+}
+
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+[data-reveal="left"] {
+  transform: translate3d(-18px, 0, 0);
+}
+
+[data-reveal="right"] {
+  transform: translate3d(18px, 0, 0);
+}
+
+[data-reveal="down"] {
+  transform: translate3d(0, -18px, 0);
+}
+
+[data-reveal="up"] {
+  transform: translate3d(0, 18px, 0);
+}
+
+/* ---------------------------
+   Efectos decorativos
+---------------------------- */
+.floating-soft {
+  animation: eth-float 4.2s var(--ease-in-out-soft) infinite;
+}
+
+.shimmer-mask {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer-mask::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    110deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.35) 45%,
+    transparent 100%
+  );
+  animation: eth-shimmer 2s linear infinite;
+  pointer-events: none;
+}
+
+/* ---------------------------
+   Parallax ligero
+---------------------------- */
+.parallax-soft {
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+/* ---------------------------
+   Reduced motion
+---------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  .anim-fade-in,
+  .anim-slide-up,
+  .anim-slide-down,
+  .anim-slide-left,
+  .anim-slide-right,
+  .anim-scale-in,
+  .floating-soft,
+  .hover-gold-glow:hover,
+  .shimmer-mask::after {
+    animation: none !important;
+  }
+
+  .hover-lift,
+  .hover-zoom-image > img,
+  .hover-zoom-image > picture img,
+  [data-reveal] {
+    transition: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}

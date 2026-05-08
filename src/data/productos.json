@@ -1,0 +1,480 @@
+[
+  {
+    "id": "prod-001",
+    "nombre": "Mochila Wayuu Artesanal",
+    "categoria": "Bolsos y Mochilas",
+    "categoryId": "bolsos-mochilas",
+    "precio": 180000,
+    "precioOriginal": 220000,
+    "descripcion": "Mochila tejida a mano por la comunidad Wayuu, con diseños geométricos tradicionales que representan la cosmovisión de su cultura.",
+    "historia": "La mochila Wayuu es mucho más que un accesorio: es un símbolo de identidad y resistencia cultural. Cada pieza es única y puede tomar hasta 20 días de tejido continuo, utilizando la técnica ancestral del crochet wayuu transmitida por generaciones de mujeres tejedoras en la península de La Guajira.",
+    "imagen": "/images/products/mochila-wayuu-001.png",
+    "imagenes": [
+      "/images/products/mochila-wayuu-001.png",
+      "/images/products/default-product.png"
+    ],
+    "artesanoId": "art-001",
+    "artesano": "María Fernández",
+    "stock": 8,
+    "disponibilidad": "Disponible",
+    "destacado": true,
+    "tags": ["mochila", "wayuu", "tejido", "artesanal", "guajira"],
+    "variantes": [
+      { "tipo": "color", "valor": "Rojo", "precio": 180000 },
+      { "tipo": "color", "valor": "Azul", "precio": 190000 },
+      { "tipo": "color", "valor": "Verde", "precio": 180000 },
+      { "tipo": "tamaño", "valor": "Mediana", "precio": 180000 },
+      { "tipo": "tamaño", "valor": "Grande", "precio": 220000 }
+    ],
+    "createdAt": "2025-12-01"
+  },
+  {
+    "id": "prod-002",
+    "nombre": "Sombrero Vueltiao Zenú",
+    "categoria": "Accesorios Culturales",
+    "categoryId": "accesorios",
+    "precio": 95000,
+    "descripcion": "Auténtico sombrero vueltiao tejido en fibra de caña flecha por artesanos Zenú de Córdoba y Sucre. Símbolo de la identidad colombiana.",
+    "historia": "El sombrero vueltiao es Patrimonio Cultural de la Nación. Su tejido en espiral representa los ciclos de la vida y la naturaleza. Los artesanos Zenú han perfeccionado esta técnica durante siglos, utilizando la caña flecha que crece en las riberas del río Sinú.",
+    "imagen": "/images/products/sombrero-vueltiao-002.png",
+    "imagenes": [
+      "/images/products/sombrero-vueltiao-002.png"
+    ],
+    "artesanoId": "art-002",
+    "artesano": "Carlos Martínez",
+    "stock": 15,
+    "disponibilidad": "Disponible",
+    "destacado": true,
+    "tags": ["sombrero", "vueltiao", "zenú", "caña flecha", "tradicional"],
+    "variantes": [
+      { "tipo": "tamaño", "valor": "S", "precio": 85000 },
+      { "tipo": "tamaño", "valor": "M", "precio": 95000 },
+      { "tipo": "tamaño", "valor": "L", "precio": 105000 },
+      { "tipo": "calidad", "valor": "Estándar", "precio": 95000 },
+      { "tipo": "calidad", "valor": "Premium (21 vueltas)", "precio": 150000 }
+    ],
+    "createdAt": "2025-11-15"
+  },
+  {
+    "id": "prod-003",
+    "nombre": "Joyería Talla en Plata – Colibrí",
+    "categoria": "Joyería Artesanal",
+    "categoryId": "joyeria",
+    "precio": 320000,
+    "descripcion": "Colgante artesanal de plata con diseño de colibrí, tallado a mano por orfebres del departamento de Nariño.",
+    "historia": "La orfebrería nariñense es reconocida mundialmente por su fineza y detalle. Cada pieza es tallada en plata ley 950 utilizando herramientas tradicionales que han pasado de maestro a aprendiz por generaciones. El colibrí simboliza la alegría y la resistencia en las culturas precolombinas.",
+    "imagen": "/images/products/colgante-plata-colibri-003.png",
+    "imagenes": [
+      "/images/products/colgante-plata-colibri-003.png"
+    ],
+    "artesanoId": "art-003",
+    "artesano": "Ana Lucía Paz",
+    "stock": 5,
+    "disponibilidad": "Limitada",
+    "destacado": true,
+    "tags": ["joyería", "plata", "colibrí", "nariño", "orfebrería"],
+    "variantes": [
+      { "tipo": "material", "valor": "Plata 950", "precio": 320000 },
+      { "tipo": "material", "valor": "Plata con baño de oro", "precio": 420000 },
+      { "tipo": "tamaño", "valor": "Pequeño (3cm)", "precio": 320000 },
+      { "tipo": "tamaño", "valor": "Grande (5cm)", "precio": 450000 }
+    ],
+    "createdAt": "2025-10-20"
+  },
+  {
+    "id": "prod-004",
+    "nombre": "Hamaca San Jacinto",
+    "categoria": "Textiles",
+    "categoryId": "textiles",
+    "precio": 280000,
+    "descripcion": "Hamaca tejida en telar vertical con algodón nativo, elaborada por artesanos de San Jacinto, Bolívar.",
+    "historia": "San Jacinto es la cuna de la hamaca tradicional colombiana. Los maestros tejedores utilizan el telar vertical, una tecnología prehispánica que sigue vigente. Cada hamaca cuenta una historia a través de sus franjas de colores naturales extraídos de cortezas, hojas y frutos locales.",
+    "imagen": "/images/products/hamaca-sanjacinto-004.png",
+    "imagenes": [
+      "/images/products/hamaca-sanjacinto-004.png"
+    ],
+    "artesanoId": "art-004",
+    "artesano": "Pedro Ramírez",
+    "stock": 6,
+    "disponibilidad": "Disponible",
+    "destacado": false,
+    "tags": ["hamaca", "telar", "san jacinto", "algodón", "textil"],
+    "variantes": [
+      { "tipo": "tamaño", "valor": "Individual", "precio": 280000 },
+      { "tipo": "tamaño", "valor": "Doble", "precio": 380000 },
+      { "tipo": "color", "valor": "Natural", "precio": 280000 },
+      { "tipo": "color", "valor": "Multicolor", "precio": 320000 }
+    ],
+    "createdAt": "2025-11-01"
+  },
+  {
+    "id": "prod-005",
+    "nombre": "Cerámica Negra de La Chamba",
+    "categoria": "Cerámica",
+    "categoryId": "ceramica",
+    "precio": 75000,
+    "descripcion": "Vaso ceremonial elaborado en cerámica negra tradicional de La Chamba, Tolima. Técnica ancestral de alfarería.",
+    "historia": "La cerámica negra de La Chamba es una tradición que se remonta a la cultura precolombina de los Panches. Las artesanas de La Chamba utilizan arcilla negra extraída del río Magdalena y la pulen con cuarzo para lograr su característico brillo metálico, en un proceso que no requiere esmalte.",
+    "imagen": "/images/products/vaso-ceramica-chamba-005.png",
+    "imagenes": [
+      "/images/products/vaso-ceramica-chamba-005.png"
+    ],
+    "artesanoId": "art-005",
+    "artesano": "Rosa Elena Díaz",
+    "stock": 20,
+    "disponibilidad": "Disponible",
+    "destacado": false,
+    "tags": ["cerámica", "chamba", "negra", "tolima", "alfarería"],
+    "variantes": [
+      { "tipo": "forma", "valor": "Vaso", "precio": 75000 },
+      { "tipo": "forma", "valor": "Plato decorativo", "precio": 95000 },
+      { "tipo": "forma", "valor": "Jarrón", "precio": 150000 },
+      { "tipo": "tamaño", "valor": "Mediano", "precio": 75000 },
+      { "tipo": "tamaño", "valor": "Grande", "precio": 120000 }
+    ],
+    "createdAt": "2025-09-10"
+  },
+  {
+    "id": "prod-006",
+    "nombre": "Cuadro Tejido en Lana – Paisaje Cafetero",
+    "categoria": "Decoración",
+    "categoryId": "decoracion",
+    "precio": 160000,
+    "descripcion": "Tapiz decorativo tejido en lana de oveja que representa el paisaje cultural cafetero colombiano.",
+    "historia": "El tejido en lana es una tradición de los departamentos de Boyacá y Cundinamarca. Cada tapiz es creado en telar horizontal, combinando lanas teñidas con tintes naturales como la cúrcuma, el nogal y la cochinilla. Este diseño particular rinde homenaje al Eje Cafetero, declarado Patrimonio de la Humanidad.",
+    "imagen": "/images/products/tapiz-paisaje-cafetero-006.png",
+    "imagenes": [
+      "/images/products/tapiz-paisaje-cafetero-006.png"
+    ],
+    "artesanoId": "art-006",
+    "artesano": "Lucía Gómez",
+    "stock": 10,
+    "disponibilidad": "Disponible",
+    "destacado": false,
+    "tags": ["tapiz", "lana", "paisaje", "cafetero", "boyacá"],
+    "variantes": [
+      { "tipo": "tamaño", "valor": "40x60 cm", "precio": 160000 },
+      { "tipo": "tamaño", "valor": "60x90 cm", "precio": 240000 },
+      { "tipo": "tamaño", "valor": "80x120 cm", "precio": 350000 }
+    ],
+    "createdAt": "2025-10-05"
+  },
+  {
+    "id": "prod-007",
+    "nombre": "Bolso Tejido en Fique",
+    "categoria": "Bolsos y Mochilas",
+    "categoryId": "bolsos-mochilas",
+    "precio": 130000,
+    "descripcion": "Bolso ecológico tejido en fique (fibra de cabuya) por artesanas del departamento de Santander.",
+    "historia": "El fique es una fibra natural extraída del agave colombiano, utilizada desde tiempos precolombinos para la elaboración de textiles resistentes. Las artesanas santandereanas han transformado esta fibra rústica en piezas de diseño contemporáneo, combinando tradición y sostenibilidad.",
+    "imagen": "/images/products/bolso-ecologico-fique-007.png",
+    "imagenes": [
+      "/images/products/bolso-ecologico-fique-007.png"
+    ],
+    "artesanoId": "art-004",
+    "artesano": "Pedro Ramírez",
+    "stock": 12,
+    "disponibilidad": "Disponible",
+    "destacado": false,
+    "tags": ["bolso", "fique", "ecológico", "santander", "cabuya"],
+    "variantes": [
+      { "tipo": "color", "valor": "Natural", "precio": 130000 },
+      { "tipo": "color", "valor": "Teñido", "precio": 150000 },
+      { "tipo": "tamaño", "valor": "Pequeño", "precio": 110000 },
+      { "tipo": "tamaño", "valor": "Grande", "precio": 160000 }
+    ],
+    "createdAt": "2025-12-10"
+  },
+  {
+    "id": "prod-008",
+    "nombre": "Pulsera Tejida en Chambira",
+    "categoria": "Joyería Artesanal",
+    "categoryId": "joyeria",
+    "precio": 45000,
+    "descripcion": "Pulsera elaborada con fibra de chambira por la comunidad Tikuna del Amazonas. Diseño étnico contemporáneo.",
+    "historia": "La fibra de chambira se extrae de una palma nativa de la Amazonía colombiana. Las mujeres Tikuna han tejido esta fibra por siglos para crear hamacas, bolsos y accesorios. Cada diseño geométrico representa elementos de su cosmovisión: el río, la selva, los animales sagrados.",
+    "imagen": "/images/products/default-product.png",
+    "imagenes": [
+      "/images/products/default-product.png"
+    ],
+    "artesanoId": "art-007",
+    "artesano": "Elena Torres",
+    "stock": 25,
+    "disponibilidad": "Disponible",
+    "destacado": false,
+    "tags": ["pulsera", "chambira", "tikuna", "amazonas", "étnico"],
+    "variantes": [
+      { "tipo": "color", "valor": "Natural", "precio": 45000 },
+      { "tipo": "color", "valor": "Rojo", "precio": 50000 },
+      { "tipo": "color", "valor": "Azul", "precio": 50000 },
+      { "tipo": "color", "valor": "Multicolor", "precio": 55000 }
+    ],
+    "createdAt": "2026-01-05"
+  },
+  {
+    "id": "prod-009",
+    "nombre": "Juego de Vajilla en Barro – 6 Piezas",
+    "categoria": "Cerámica",
+    "categoryId": "ceramica",
+    "precio": 210000,
+    "descripcion": "Vajilla artesanal de 6 piezas elaborada en barro cocido, decorada con esmaltes naturales y motivos florales.",
+    "historia": "La alfarería en barro es una de las expresiones artesanales más antiguas de Colombia. En el municipio de Ráquira, Boyacá, los maestros alfareros transforman el barro en piezas utilitarias y decorativas utilizando tornos manuales y hornos de leña que alcanzan temperaturas ideales para la cocción de esmaltes naturales.",
+    "imagen": "/images/products/default-product.png",
+    "imagenes": [
+      "/images/products/default-product.png"
+    ],
+    "artesanoId": "art-005",
+    "artesano": "Rosa Elena Díaz",
+    "stock": 4,
+    "disponibilidad": "Limitada",
+    "destacado": true,
+    "tags": ["vajilla", "barro", "ráquira", "boyacá", "cerámica"],
+    "variantes": [
+      { "tipo": "diseño", "valor": "Flores", "precio": 210000 },
+      { "tipo": "diseño", "valor": "Geométrico", "precio": 230000 },
+      { "tipo": "diseño", "valor": "Tradicional", "precio": 210000 }
+    ],
+    "createdAt": "2025-11-20"
+  },
+  {
+    "id": "prod-010",
+    "nombre": "Poncho Lana de Oveja – Raya",
+    "categoria": "Textiles",
+    "categoryId": "textiles",
+    "precio": 250000,
+    "descripcion": "Poncho tradicional tejido en lana de oveja con diseño de rayas típico de la región andina colombiana.",
+    "historia": "El poncho es la prenda emblemática de los Andes colombianos. Los tejedores de Boyacá y Nariño mantienen viva esta tradición utilizando lana de oveja criolla, hilada a mano y teñida con tintes naturales. Cada poncho puede tomar hasta un mes de trabajo continuo en telar horizontal.",
+    "imagen": "/images/products/default-product.png",
+    "imagenes": [
+      "/images/products/default-product.png"
+    ],
+    "artesanoId": "art-006",
+    "artesano": "Lucía Gómez",
+    "stock": 7,
+    "disponibilidad": "Disponible",
+    "destacado": false,
+    "tags": ["poncho", "lana", "boyacá", "andino", "textil"],
+    "variantes": [
+      { "tipo": "color", "valor": "Gris natural", "precio": 250000 },
+      { "tipo": "color", "valor": "Negro con rojo", "precio": 280000 },
+      { "tipo": "color", "valor": "Café con crema", "precio": 260000 },
+      { "tipo": "tamaño", "valor": "Adulto", "precio": 250000 },
+      { "tipo": "tamaño", "valor": "Niño", "precio": 180000 }
+    ],
+    "createdAt": "2025-08-15"
+  },
+  {
+    "id": "prod-011",
+    "nombre": "Cestería en Iraca – Bandeja Decorativa",
+    "categoria": "Decoración",
+    "categoryId": "decoracion",
+    "precio": 85000,
+    "descripcion": "Bandeja decorativa tejida en fibra de iraca (paja toquilla) por artesanas del departamento de Nariño.",
+    "historia": "La cestería en iraca es una tradición que se concentra en el municipio de Sandoná, Nariño. Las artesanas tejen la fibra de iraca en patrones geométricos de alta precisión, creando piezas que combinan funcionalidad y arte. La iraca es una palma nativa cuyas hojas se cortan, secan y tiñen antes del tejido.",
+    "imagen": "/images/products/cesta-iraca-012.png",
+    "imagenes": [
+      "/images/products/cesta-iraca-012.png"
+    ],
+    "artesanoId": "art-003",
+    "artesano": "Ana Lucía Paz",
+    "stock": 14,
+    "disponibilidad": "Disponible",
+    "destacado": false,
+    "tags": ["cestería", "iraca", "paja toquilla", "sandoná", "decoración"],
+    "variantes": [
+      { "tipo": "tamaño", "valor": "20 cm", "precio": 65000 },
+      { "tipo": "tamaño", "valor": "30 cm", "precio": 85000 },
+      { "tipo": "tamaño", "valor": "40 cm", "precio": 120000 },
+      { "tipo": "diseño", "valor": "Natural", "precio": 85000 },
+      { "tipo": "diseño", "valor": "Teñido", "precio": 95000 }
+    ],
+    "createdAt": "2025-12-20"
+  },
+  {
+    "id": "prod-012",
+    "nombre": "Aretes Tagua – Forma Geométrica",
+    "categoria": "Joyería Artesanal",
+    "categoryId": "joyeria",
+    "precio": 55000,
+    "descripcion": "Aretes elaborados en tagua (marfil vegetal) tallados a mano con formas geométricas contemporáneas.",
+    "historia": "La tagua, conocida como 'marfil vegetal', es la semilla de la palma Phytelephas, que crece en las selvas del Pacífico colombiano. Los artesanos del Chocó y Nariño han transformado esta semilla en joyería sostenible desde la época colonial, creando una alternativa ética al marfil animal.",
+    "imagen": "/images/products/default-product.png",
+    "imagenes": [
+      "/images/products/default-product.png"
+    ],
+    "artesanoId": "art-007",
+    "artesano": "Elena Torres",
+    "stock": 18,
+    "disponibilidad": "Disponible",
+    "destacado": false,
+    "tags": ["tagua", "marfil vegetal", "aretes", "chocó", "sostenible"],
+    "variantes": [
+      { "tipo": "forma", "valor": "Círculo", "precio": 55000 },
+      { "tipo": "forma", "valor": "Triángulo", "precio": 55000 },
+      { "tipo": "forma", "valor": "Hexágono", "precio": 65000 },
+      { "tipo": "tamaño", "valor": "Pequeño", "precio": 45000 },
+      { "tipo": "tamaño", "valor": "Grande", "precio": 65000 }
+    ],
+    "createdAt": "2026-01-15"
+  },
+  {
+    "id": "prod-013",
+    "nombre": "Alpargatas Tejidas a Mano",
+    "categoria": "Accesorios Culturales",
+    "categoryId": "accesorios",
+    "precio": 75000,
+    "descripcion": "Alpargatas artesanales con suela de fique y capellada tejida en algodón. Cómodas y llenas de tradición.",
+    "historia": "Las alpargatas han sido el calzado tradicional de los campesinos colombianos por generaciones. Los artesanos de Santander y Boyacá mantienen viva esta tradición combinando la fibra de fique para la suela (resistente y duradera) con algodón tejido para la capellada, creando un calzado fresco y cómodo.",
+    "imagen": "/images/products/default-product.png",
+    "imagenes": [
+      "/images/products/default-product.png"
+    ],
+    "artesanoId": "art-002",
+    "artesano": "Carlos Martínez",
+    "stock": 20,
+    "disponibilidad": "Disponible",
+    "destacado": false,
+    "tags": ["alpargatas", "calzado", "fique", "tradicional", "campesino"],
+    "variantes": [
+      { "tipo": "talla", "valor": "36", "precio": 75000 },
+      { "tipo": "talla", "valor": "37", "precio": 75000 },
+      { "tipo": "talla", "valor": "38", "precio": 75000 },
+      { "tipo": "talla", "valor": "39", "precio": 75000 },
+      { "tipo": "talla", "valor": "40", "precio": 75000 },
+      { "tipo": "color", "valor": "Negro", "precio": 75000 },
+      { "tipo": "color", "valor": "Blanco", "precio": 75000 }
+    ],
+    "createdAt": "2026-02-01"
+  },
+  {
+    "id": "prod-014",
+    "nombre": "Mochila Arhuaca – Mochila de Mando",
+    "categoria": "Bolsos y Mochilas",
+    "categoryId": "bolsos-mochilas",
+    "precio": 220000,
+    "descripcion": "Mochila tradicional Arhuaca (Iku) tejida en lana de oveja con diseños sagrados que representan la conexión con la Sierra Nevada de Santa Marta.",
+    "historia": "Para el pueblo Arhuaco, la mochila no es solo un objeto utilitario: es un símbolo de identidad y cosmovisión. La 'mochila de mando' es tejida por las mujeres y representa el universo femenino. Cada línea y figura geométrica tiene un significado espiritual relacionado con la Sierra Nevada, que ellos consideran el corazón del mundo.",
+    "imagen": "/images/products/default-product.png",
+    "imagenes": [
+      "/images/products/default-product.png"
+    ],
+    "artesanoId": "art-001",
+    "artesano": "María Fernández",
+    "stock": 3,
+    "disponibilidad": "Limitada",
+    "destacado": true,
+    "tags": ["arhuaca", "iku", "mochila", "sierra nevada", "sagrada"],
+    "variantes": [
+      { "tipo": "tamaño", "valor": "Mediana", "precio": 220000 },
+      { "tipo": "tamaño", "valor": "Grande (Mando)", "precio": 320000 }
+    ],
+    "createdAt": "2025-10-30"
+  },
+  {
+    "id": "prod-015",
+    "nombre": "Collar de Semillas Amazónicas",
+    "categoria": "Joyería Artesanal",
+    "categoryId": "joyeria",
+    "precio": 65000,
+    "descripcion": "Collar elaborado con semillas nativas de la Amazonía colombiana: achiote, huayruro y tagua.",
+    "historia": "Las semillas amazónicas han sido utilizadas por los pueblos indígenas para la creación de joyería ceremonial y cotidiana durante milenios. Cada semilla tiene un significado especial: el huayruro atrae la buena suerte, el achiote protege y la tagua representa la fertilidad. Las artesanas Tikuna y Huitoto combinan estas semillas en collares de gran valor cultural y estético.",
+    "imagen": "/images/products/collar-semillas-amazonicas-009.png",
+    "imagenes": [
+      "/images/products/collar-semillas-amazonicas-009.png"
+    ],
+    "artesanoId": "art-007",
+    "artesano": "Elena Torres",
+    "stock": 15,
+    "disponibilidad": "Disponible",
+    "destacado": false,
+    "tags": ["collar", "semillas", "amazonía", "tikuna", "natural"],
+    "variantes": [
+      { "tipo": "largo", "valor": "45 cm", "precio": 65000 },
+      { "tipo": "largo", "valor": "60 cm", "precio": 85000 },
+      { "tipo": "largo", "valor": "80 cm", "precio": 100000 },
+      { "tipo": "estilo", "valor": "Sencillo", "precio": 65000 },
+      { "tipo": "estilo", "valor": "Con dije", "precio": 85000 }
+    ],
+    "createdAt": "2026-01-25"
+  },
+  {
+    "id": "prod-016",
+    "nombre": "Espejo en Madera Tallada – Sol de los Pastos",
+    "categoria": "Decoración",
+    "categoryId": "decoracion",
+    "precio": 190000,
+    "descripcion": "Espejo decorativo con marco tallado en madera de cedro, inspirado en el Sol de los Pastos, símbolo del sur de Colombia.",
+    "historia": "El Sol de los Pastos es un petroglifo ancestral de la cultura de los Pastos, ubicada en el departamento de Nariño. Los talladores de madera de la región han reinterpretado este símbolo en piezas de arte utilitario. Cada espejo es tallado a mano en cedro, una madera noble de la región andina, y decorado con tintes naturales.",
+    "imagen": "/images/products/espejo-tallado-madera-011.png",
+    "imagenes": [
+      "/images/products/espejo-tallado-madera-011.png"
+    ],
+    "artesanoId": "art-003",
+    "artesano": "Ana Lucía Paz",
+    "stock": 5,
+    "disponibilidad": "Disponible",
+    "destacado": false,
+    "tags": ["espejo", "madera", "tallado", "sol de los pastos", "nariño"],
+    "variantes": [
+      { "tipo": "tamaño", "valor": "30 cm", "precio": 190000 },
+      { "tipo": "tamaño", "valor": "45 cm", "precio": 280000 },
+      { "tipo": "tamaño", "valor": "60 cm", "precio": 380000 },
+      { "tipo": "acabado", "valor": "Natural", "precio": 190000 },
+      { "tipo": "acabado", "valor": "Dorado", "precio": 240000 }
+    ],
+    "createdAt": "2025-11-10"
+  },
+  {
+    "id": "prod-017",
+    "nombre": "Tapete en Algodón – Costillas",
+    "categoria": "Textiles",
+    "categoryId": "textiles",
+    "precio": 140000,
+    "descripcion": "Tapete tejido en algodón con técnica de 'costillas', tradicional de la Costa Caribe colombiana.",
+    "historia": "La técnica de tejido de 'costillas' es característica de los departamentos de Córdoba y Sucre. Los artesanos utilizan un telar de cintura para crear texturas únicas que recuerdan las costillas de la palma. Estos tapetes son tradicionalmente utilizados en hamacas y mantas, pero han sido adaptados a piezas decorativas contemporáneas.",
+    "imagen": "/images/products/default-product.png",
+    "imagenes": [
+      "/images/products/default-product.png"
+    ],
+    "artesanoId": "art-004",
+    "artesano": "Pedro Ramírez",
+    "stock": 10,
+    "disponibilidad": "Disponible",
+    "destacado": false,
+    "tags": ["tapete", "costillas", "algodón", "caribe", "telar"],
+    "variantes": [
+      { "tipo": "tamaño", "valor": "60x100 cm", "precio": 140000 },
+      { "tipo": "tamaño", "valor": "80x150 cm", "precio": 220000 },
+      { "tipo": "color", "valor": "Natural", "precio": 140000 },
+      { "tipo": "color", "valor": "Índigo", "precio": 160000 }
+    ],
+    "createdAt": "2025-09-25"
+  },
+  {
+    "id": "prod-018",
+    "nombre": "Catadora de Café en Cerámica",
+    "categoria": "Cerámica",
+    "categoryId": "ceramica",
+    "precio": 55000,
+    "descripcion": "Set de 4 catadoras (tazas) para degustación de café elaboradas en cerámica artesanal del Eje Cafetero.",
+    "historia": "La cultura del café en Colombia ha inspirado una artesanía propia. Las catadoras de cerámica son elaboradas por alfareros de Caldas y Quindío, quienes han perfeccionado piezas diseñadas específicamente para la cata de café especial. La forma ancha y la base estable permiten apreciar el aroma y el cuerpo del café colombiano.",
+    "imagen": "/images/products/default-product.png",
+    "imagenes": [
+      "/images/products/default-product.png"
+    ],
+    "artesanoId": "art-005",
+    "artesano": "Rosa Elena Díaz",
+    "stock": 12,
+    "disponibilidad": "Disponible",
+    "destacado": false,
+    "tags": ["café", "catadora", "cerámica", "eje cafetero", "taza"],
+    "variantes": [
+      { "tipo": "color", "valor": "Blanco", "precio": 55000 },
+      { "tipo": "color", "valor": "Negro mate", "precio": 60000 },
+      { "tipo": "color", "valor": "Verde esmeralda", "precio": 65000 },
+      { "tipo": "cantidad", "valor": "4 unidades", "precio": 55000 },
+      { "tipo": "cantidad", "valor": "6 unidades", "precio": 75000 }
+    ],
+    "createdAt": "2025-10-15"
+  }
+]
