@@ -31,12 +31,13 @@ function ArtisanProfile({ artisan = {}, products = [] }) {
       <section className="relative overflow-hidden rounded-2xl bg-[#F5F3EF]">
         <div className="flex flex-col lg:flex-row">
           <div className="relative aspect-square w-full lg:w-2/5 lg:aspect-auto lg:min-h-[500px] overflow-hidden">
-            <img
-              src={imageSrc}
-              alt={nombre}
-              onError={handleImageError}
-              className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
-            />
+          <img
+            src={imageSrc}
+            alt={nombre}
+            fetchpriority="high"
+            onError={handleImageError}
+            className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
+          />
             <div className="absolute inset-0 bg-gradient-to-r from-[#000000]/40 to-transparent" />
           </div>
 
@@ -91,6 +92,7 @@ function ArtisanProfile({ artisan = {}, products = [] }) {
                     <img
                       src={step.imagen}
                       alt={step.titulo || `Paso ${idx + 1}`}
+                      loading="lazy"
                       className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
                   </div>

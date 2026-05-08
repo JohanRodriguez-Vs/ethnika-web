@@ -1,3 +1,4 @@
+import { useRef, useState, useCallback, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../components/ui/Button';
 import ScrollReveal from '../components/ui/ScrollReveal';
@@ -81,6 +82,114 @@ const reviews = [
     avatar: '👨‍🦳',
   }
 ];
+
+function DraggableReviews({ reviews }) {
+  const trackRef = useRef(null);
+  const [isDragging, setIsDragging] = useState(false);
+  const [startX, setStartX] = useState(0);
+  const [scrollLeftStart, setScrollLeftStart] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
+
+  const CARD_WIDTH = 320;
+  const GAP = 20;
+  const AUTO_SCROLL_SPEED = 1.2;
+
+  useEffect(() => {
+    if (isPaused) return;
+    const interval = setInterval(() => {
+      if (!trackRef.current) return;
+      trackRef.current.scrollLeft += AUTO_SCROLL_SPEED;
+      if (trackRef.current.scrollLeft >= trackRef.current.scrollWidth / 2) {
+        trackRef.current.scrollLeft = 0;
+      }
+    }, 16);
+    return () => clearInterval(interval);
+  }, [isPaused]);
+
+  const handleMouseDown = useCallback((e) => {
+    setIsDragging(true);
+    setStartX(e.pageX - (trackRef.current?.offsetLeft || 0));
+    setScrollLeftStart(trackRef.current?.scrollLeft || 0);
+    setIsPaused(true);
+  }, []);
+
+  const handleMouseMove = useCallback((e) => {
+    if (!isDragging || !trackRef.current) return;
+    e.preventDefault();
+    const x = e.pageX - (trackRef.current.offsetLeft || 0);
+    const walk = (x - startX) * 1.5;
+    trackRef.current.scrollLeft = scrollLeftStart - walk;
+  }, [isDragging, startX, scrollLeftStart]);
+
+  const handleMouseUp = useCallback(() => {
+    setIsDragging(false);
+    setIsPaused(false);
+  }, []);
+
+  const handleTouchStart = useCallback((e) => {
+    setIsDragging(true);
+    setStartX(e.touches[0].pageX - (trackRef.current?.offsetLeft || 0));
+    setScrollLeftStart(trackRef.current?.scrollLeft || 0);
+    setIsPaused(true);
+  }, []);
+
+  const handleTouchMove = useCallback((e) => {
+    if (!isDragging || !trackRef.current) return;
+    const x = e.touches[0].pageX - (trackRef.current.offsetLeft || 0);
+    const walk = (x - startX) * 1.5;
+    trackRef.current.scrollLeft = scrollLeftStart - walk;
+  }, [isDragging, startX, scrollLeftStart]);
+
+  const handleTouchEnd = useCallback(() => {
+    setIsDragging(false);
+    setIsPaused(false);
+  }, []);
+
+  const allReviews = [...reviews, ...reviews];
+
+  return (
+    <div className="relative overflow-hidden">
+      <div
+        ref={trackRef}
+        className={`flex gap-5 overflow-x-auto scrollbar-hide select-none ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
+        style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+        onMouseDown={handleMouseDown}
+        onMouseMove={handleMouseMove}
+        onMouseUp={handleMouseUp}
+        onMouseLeave={handleMouseUp}
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+      >
+        {allReviews.map((review, index) => (
+          <div
+            key={`${review.id}-${index}`}
+            className="flex-shrink-0 w-80 card-ethnika p-6 pointer-events-none"
+          >
+            <div className="flex items-start gap-4">
+              <span className="text-4xl">{review.avatar}</span>
+              <div className="flex-1">
+                <div className="flex items-center gap-2 mb-2">
+                  <h3 className="font-semibold text-primary-900">
+                    {review.name}
+                  </h3>
+                </div>
+                <div className="flex gap-1 mb-3">
+                  {[...Array(review.rating)].map((_, i) => (
+                    <span key={i} className="text-accent-gold">★</span>
+                  ))}
+                </div>
+                <p className="text-sm text-gray-700 italic">
+                  &ldquo;{review.text}&rdquo;
+                </p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 function Home() {
   const { addItem } = useCart();
@@ -328,6 +437,7 @@ function Home() {
                     <img
                       src={artisan.image}
                       alt={artisan.name}
+                      loading="lazy"
                       className="w-full h-auto object-contain transition-transform duration-300 hover:scale-105"
                       onError={(e) => {
                         e.target.src = '/images/artisans/default-avatar.png';
@@ -379,51 +489,7 @@ function Home() {
             </p>
           </ScrollReveal>
 
-          <div className="relative overflow-hidden">
-            <style>{`
-              @keyframes scrollLeft {
-                0% {
-                  transform: translateX(0);
-                }
-                100% {
-                  transform: translateX(-50%);
-                }
-              }
-              .scroll-animation {
-                animation: scrollLeft 30s linear infinite;
-              }
-            `}</style>
-
-            <div className="flex gap-5" style={{ width: 'fit-content' }}>
-              {[...reviews, ...reviews].map((review, index) => (
-                <div
-                  key={`${review.id}-${index}`}
-                  className="scroll-animation flex-shrink-0 w-80 card-ethnika p-6"
-                >
-                  <div className="flex items-start gap-4">
-                    <span className="text-4xl">{review.avatar}</span>
-                    <div className="flex-1">
-                      <div className="flex items-center gap-2 mb-2">
-                        <h3 className="font-semibold text-primary-900">
-                          {review.name}
-                        </h3>
-                      </div>
-                      <div className="flex gap-1 mb-3">
-                        {[...Array(review.rating)].map((_, i) => (
-                          <span key={i} className="text-accent-gold">
-                            ★
-                          </span>
-                        ))}
-                      </div>
-                      <p className="text-sm text-gray-700 italic">
-                        "{review.text}"
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
+          <DraggableReviews reviews={reviews} />
         </div>
       </section>
     </div>

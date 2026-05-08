@@ -102,6 +102,7 @@ const ProductGallery = ({
             <img
               src={currentImage}
               alt={`${productName} - imagen ${currentImageIndex + 1}`}
+              fetchpriority="high"
               className={`w-full h-full object-cover transition-all duration-700 ease-out ${
                 isZoomed
                   ? 'scale-150 cursor-zoom-out'
@@ -209,6 +210,7 @@ const ProductGallery = ({
                       <img
                         src={image}
                         alt={`Miniatura ${index + 1}`}
+                        loading="lazy"
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                       />
 

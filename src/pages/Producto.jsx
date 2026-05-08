@@ -104,6 +104,7 @@ function Producto() {
                     <img
                       src={product.imagen}
                       alt={product.nombre}
+                      fetchpriority="high"
                       className="h-full w-full rounded-lg object-contain"
                     />
                   ) : (
@@ -124,6 +125,7 @@ function Producto() {
                       <img
                         src={img}
                         alt={`${product.nombre} vista ${i + 1}`}
+                        loading="lazy"
                         className="h-20 w-full object-cover"
                       />
                     </div>

@@ -49,6 +49,7 @@ const ProductCard = ({ product, onAddToCart }) => {
           <img
             src={getImageUrl()}
             alt={product.nombre}
+            loading="lazy"
             onError={handleImageError}
             className={`w-full h-full object-cover transition-transform duration-700 ${
               isHovered ? 'scale-110' : 'scale-100'

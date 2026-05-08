@@ -88,6 +88,7 @@ function ArtesanoDetalle() {
                 <img
                   src={artisan.image}
                   alt={artisan.name}
+                  fetchpriority="high"
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     e.target.src = '/images/artisans/default-avatar.png';
@@ -170,6 +171,7 @@ function ArtesanoDetalle() {
                       <img
                         src={product.imagen}
                         alt={product.nombre}
+                        loading="lazy"
                         className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
                         onError={(e) => {
                           e.target.src = '/images/products/default-product.png';

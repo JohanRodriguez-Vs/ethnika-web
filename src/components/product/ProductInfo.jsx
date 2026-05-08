@@ -397,6 +397,7 @@ const ProductInfo = ({
               <img
                 src={artisan.image}
                 alt={artisan.name}
+                loading="lazy"
                 className="w-12 h-12 rounded-full object-cover flex-shrink-0"
               />
             )}

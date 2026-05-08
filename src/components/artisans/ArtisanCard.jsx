@@ -34,6 +34,7 @@ function ArtisanCard({ artisan = {} }) {
           <img
             src={imageSrc}
             alt={nombre}
+            loading="lazy"
             onError={handleImageError}
             className={`h-full w-full object-cover transition-transform duration-700 ${
               isHovered ? 'scale-110' : 'scale-100'
