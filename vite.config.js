@@ -32,5 +32,5 @@ export default defineConfig({
     port: 4173,
     open: true,
   },
-  base: process.env.NODE_ENV === 'production' ? '/' : '/',
+  base: '/',
 });
