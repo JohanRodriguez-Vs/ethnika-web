@@ -32,5 +32,5 @@ export default defineConfig({
     port: 4173,
     open: true,
   },
-  base: '/ethnika-by-col/',
+  base: process.env.NODE_ENV === 'production' ? '/ethnika-by-col/' : '/',
 });
